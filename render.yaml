@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: insurance-rag-app
+    name: canva-rag-app
     env: python
     rootDir: backend
     buildCommand: pip install -r ../requirements.txt
