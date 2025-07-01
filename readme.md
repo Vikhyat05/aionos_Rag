@@ -135,19 +135,15 @@ In short, we treat frameworks as utilities, not as architecture. This gives us t
    ```sh
    pip install -r requirements.txt
    ```
-2. Start the FastAPI server:
+2. Start the app by running the FastAPI server from the root of the `backend/` directory:
    ```sh
-   uvicorn backend.main:app --reload
+   uvicorn main:app --host 0.0.0.0 --port 8000
    ```
+This serves both the backend API and the frontend UI.
+The static frontend is automatically served from `backend/frontend/`, so there’s no need to run a separate frontend server.
 
 ### 4. Frontend
-
-1. Open [`backend/frontend/index.html`](backend/frontend/index.html) in your browser.
-   - Or serve with a simple HTTP server:
-     ```sh
-     cd backend/frontend
-     python -m http.server 8080
-     ```
+Once running, visit: http://localhost:8000
 
 ---
 
