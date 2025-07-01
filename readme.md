@@ -179,7 +179,7 @@ Once running, visit: http://localhost:8000
 
 ## Example Conversations
 
-Below are some sample interactions between users and the SecureShield Insurance Support system.
+Below are some sample interactions between users and the assistant 
 <img width="1507" alt="image" src="https://github.com/user-attachments/assets/9d29a006-8788-4514-921e-802e7d20ba0b" />
 <img width="1471" alt="image" src="https://github.com/user-attachments/assets/ae36e7e3-bef3-4428-b2d7-e8fefc34bf65" />
 <img width="1510" alt="image" src="https://github.com/user-attachments/assets/429eebf6-51a0-4faa-9c3a-edabda6c3cd5" />
