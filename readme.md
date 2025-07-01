@@ -8,9 +8,6 @@ Canva Assistant is a fully agentic RAG (Retrieval-Augmented Generation) system d
 
 ### What We Use:
 
-- **OCR & Image Processing**  
-  Images (from PDFs ) are processed using OCR to extract text for downstream RAG tasks. This enables support for scanned or image-based documents.
-
 - **LlamaIndex Parser**  
   Used for parsing and converting PDFs into images and markdown format (`Data/parse.py`).
 
@@ -47,7 +44,7 @@ In short, we treat frameworks as utilities, not as architecture. This gives us t
 **a. Image Extraction & OCR**
 
 - Canva documents (PDFs or images) are converted to images and stored in `Data/cleaned/images/` and `Data/cleaned/images2/`.
-- OCR is performed on `Data/images/`these images to extract text content for each page or section.
+- gpt 4.1 is used to process `Data/images/`these images to extract text content for each page or section.
 - Extracted text is saved as markdown files in `Data/markdowns/`.
 
 **b. Markdown Refinement**
