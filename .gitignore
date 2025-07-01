@@ -1,0 +1,41 @@
+# ─── PYTHON ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Pip requirements logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ─── ENVIRONMENT VARIABLES ───────────────────────────────
+.env
+
+# ─── SYSTEM FILES ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ─── COVERAGE / TEST ─────────────────────────────────────
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
+
+# ─── OPTIONAL: Ignore frontend build output if any ───────
+/frontend/dist/
+/frontend/build/
