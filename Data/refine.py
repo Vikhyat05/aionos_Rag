@@ -52,7 +52,7 @@ def markdown_from_image(image_path: Path) -> str:
     data_url = f"data:image/{image_path.suffix.lstrip('.').lower()};base64,{b64}"
 
     rsp = openai_client.chat.completions.create(
-        model="gpt-4.1",  # any vision-capable model works
+        model="gpt-4.1",
         messages=[
             {"role": "system", "content": system_prompt},
             {
