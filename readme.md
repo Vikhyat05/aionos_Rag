@@ -65,7 +65,6 @@ In short, we treat frameworks as utilities, not as architecture. This gives us t
 **a. FastAPI Server**
 
 - Entrypoint: [`backend/main.py`](backend/main.py)
-- CORS enabled for frontend integration.
 - Includes chat and reset endpoints via [`backend/router/chat.py`](backend/router/chat.py).
 - Serves the frontend static files from [`backend/frontend/`](backend/frontend/).
 
