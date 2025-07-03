@@ -43,14 +43,14 @@ In short, we treat frameworks as utilities, not as architecture. This gives us t
 
 **a. Image Extraction & OCR**
 
-- Canva documents (PDFs or images) are converted to images and stored in `Data/cleaned/images/` and `Data/cleaned/images2/`.
+- Canva documents (PDFs or images) are converted to images and stored in `Data/images/` and `Data/images2/`.
 - gpt 4.1 is used to process `Data/images/`these images to extract text content for each page or section.
 - Extracted text is saved as markdown files in `Data/markdowns/`.
 
 **b. Markdown Refinement**
 
 - [`Data/refine.py`](Data/refine.py) (if present) or manual review is used to clean and structure the OCR-extracted markdown into chunk-friendly plain text.
-- Cleaned files are saved in `Data/cleaned/`.
+
 
 **c. Embedding & Vector Storage**
 
