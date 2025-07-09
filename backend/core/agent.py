@@ -2,12 +2,11 @@ import json
 from dotenv import load_dotenv
 from .specs import functions
 import json
-from typing import AsyncIterable, Optional
+from typing import Optional
 from .memory import memory
 from .handler import function_calling_handler
 from .llm import global_client
 import json
-from typing import AsyncIterable, Optional
 
 load_dotenv()
 

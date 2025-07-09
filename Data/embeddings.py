@@ -23,7 +23,7 @@ splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
 def get_text_chunks(file_path: str) -> list[str]:
     with open(file_path, "r", encoding="utf-8") as f:
         text = f.read()
-    text = text.replace("\n", " ")  # optional: normalize line breaks
+    text = text.replace("\n", " ")
     return splitter.split_text(text)
 
 

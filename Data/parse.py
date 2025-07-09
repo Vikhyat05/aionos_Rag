@@ -17,6 +17,7 @@ result = parser.parse("rawPdf/Canva-Userguide.pdf")
 
 
 Path("markdowns").mkdir(exist_ok=True)
+
 md_out = Path("markdowns/Canva-Userguide.md")
 with md_out.open("w", encoding="utf-8") as f:
     for i, doc in enumerate(result.get_markdown_documents(split_by_page=True), start=1):
