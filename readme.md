@@ -4,6 +4,8 @@
 
 ## Testing the branch changes 2
 
+## Changes made in the branch 2
+
 ## Overview
 
 Canva Assistant is a fully agentic RAG (Retrieval-Augmented Generation) system designed to help users navigate and use the Canva platform through step-by-step, visual-aware guidance. The assistant extracts instructional content from Canva UI walkthroughs (images/screenshots), generates structured markdown with LLMs, stores it in a vector database, and answers user queries with evidence-backed, well-cited guidance.
