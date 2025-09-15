@@ -1,5 +1,11 @@
 # Canva Assistant – Agentic RAG System
 
+## Testing the branch changes
+
+## Testing the branch changes 2
+
+## Changes made in the branch 2
+
 ## Overview
 
 Canva Assistant is a fully agentic RAG (Retrieval-Augmented Generation) system designed to help users navigate and use the Canva platform through step-by-step, visual-aware guidance. The assistant extracts instructional content from Canva UI walkthroughs (images/screenshots), generates structured markdown with LLMs, stores it in a vector database, and answers user queries with evidence-backed, well-cited guidance.
@@ -50,7 +56,6 @@ In short, we treat frameworks as utilities, not as architecture. This gives us t
 **b. Markdown Refinement**
 
 - [`Data/refine.py`](Data/refine.py) (if present) or manual review is used to clean and structure the OCR-extracted markdown into chunk-friendly plain text.
-
 
 **c. Embedding & Vector Storage**
 
@@ -138,10 +143,11 @@ In short, we treat frameworks as utilities, not as architecture. This gives us t
    ```sh
    uvicorn main:app --host 0.0.0.0 --port 8000
    ```
-This serves both the backend API and the frontend UI.
-The static frontend is automatically served from `backend/frontend/`, so there’s no need to run a separate frontend server.
+   This serves both the backend API and the frontend UI.
+   The static frontend is automatically served from `backend/frontend/`, so there’s no need to run a separate frontend server.
 
 ### 4. Frontend
+
 Once running, visit: http://localhost:8000
 
 ---
@@ -178,7 +184,7 @@ Once running, visit: http://localhost:8000
 
 ## Example Conversations
 
-Below are some sample interactions between users and the assistant 
+Below are some sample interactions between users and the assistant
 <img width="1507" alt="image" src="https://github.com/user-attachments/assets/9d29a006-8788-4514-921e-802e7d20ba0b" />
 <img width="1471" alt="image" src="https://github.com/user-attachments/assets/ae36e7e3-bef3-4428-b2d7-e8fefc34bf65" />
 <img width="1510" alt="image" src="https://github.com/user-attachments/assets/429eebf6-51a0-4faa-9c3a-edabda6c3cd5" />
